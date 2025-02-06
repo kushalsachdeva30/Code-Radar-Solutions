@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main (){
-    int x;
-    printf("%d",&x);
+    float x;
+    printf("%f",&x);
 
     float area;
     area = 3.14*(r*r);
