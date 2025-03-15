@@ -5,20 +5,16 @@ int main()
     int x,y;
     char ch;
     scanf("%d %d %c",&x,&y, &ch);
-    int s = x+y;
-    int d = x-y;
-    int p = x*y;
-    int di = x/y;
     if(ch=='+'){
-        printf("%d",s);
+        printf("%d",x+y);
     }
     else if(ch=='-'){
-        printf("%d",d);
+        printf("%d",x-y);
     }
     else if(ch=='*'){
-        printf("%d",p);
+        printf("%d",x*y);
     }
     else if(ch=='/'){
-        printf("%d",di);
+        printf("%.2f",x/y);
     }
 }
