@@ -29,7 +29,7 @@ int main() {
     int d;
 
     for (int i = 0; i < size; i++) {
-        printf("Element %d: ", i + 1);
+        printf("%d",i + 1);
         scanf("%d", &arr[i]);
     }
 
